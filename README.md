@@ -3,12 +3,12 @@
 
 #Project Summary
 
-Why did I choose this problem?
+Why did we choose this problem?
 
 
 -> Contact centers encounter several critical challenges: long wait times leading to customer dissatisfaction and potential churn, limited service hours restricting interaction, impersonal service impacting loyalty, high operational costs, scalability issues, inefficient data handling, and time-consuming post-contact processing.
 
-How do I approach to provide a difference?
+How do we approach to provide a difference?
 
 
 -> The integration of Gen AI addresses these issues by reducing wait times, enabling 24/7 service, personalizing interactions, cutting operational costs, improving scalability, optimizing data analysis, and automating post-contact tasks.
@@ -25,13 +25,13 @@ Screenshot 2023-12-06 at 6 19 59 PM
 
 Source:https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/the-economic-potential-of-generative-AI-the-next-productivity-frontier#business- value
 
-What is the difference that I have created through our solution?
+What is the difference that we have created through our solution?
 
 
 Screenshot 2023-12-06 at 6 15 51 PM
 
 
--> To enhance both customer’s and agent’s experience using GenAI ,I made the below solution.This solution utilizes AWS services such as Connect,Bedrock,Kendra ,S3,Lambda and Lex.The Customer makes the call to the system, and the call is handled first by the lex chatbot and then, if required ,by the human agent. The following two are the main integrations for our solution:
+-> To enhance both customer’s and agent’s experience using GenAI ,we made the below solution.This solution utilizes AWS services such as Connect,Bedrock,Kendra ,S3,Lambda and Lex.The Customer makes the call to the system, and the call is handled first by the lex chatbot and then, if required ,by the human agent. The following two are the main integrations for our solution:
 
 Lex Chatbot Integration: Our Lex chatbot seamlessly integrates with AWS Bedrock housing the LLM model. Leveraging AWS Kendra, the chatbot scours policy documents stored in S3, swiftly retrieving the most pertinent document matching the customer's query. Kendra's output fuels the LLM model, generating personalized responses tailored to each customer query.
 
